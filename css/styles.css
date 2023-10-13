@@ -476,8 +476,21 @@ hr {
     letter-spacing: 2.1px;
 }
 
+.seventh-section {
+    background: url('/images/background_seventh.jpg'), lightgray -170.29px 0px / 123.004% 100% no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 630px;
+    width: 1600px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
 .Online-booking-div {
-    background-color: #000000;
     height: 630px;
     width: 579px;
+    fill: #111319;
 }
+

@@ -199,13 +199,13 @@ img {
     line-height: 15px;
     letter-spacing: 2.2px;
 }
-
+/*
 .barber-shop {
     height: 680px;
     padding-left: 124px;
-    background-image: url(/images/background_first.jpg);
+    background-image: url(../images/background_first.jpg);
     border: #000000 1px dotted;
-}
+}*/
 /* SECOND SECTION */
 
 .second-container {

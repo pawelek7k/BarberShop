@@ -165,7 +165,7 @@ img {
     width: 1070px;
     height: 680px;
     display: flex;
-    background-image: url(./images/background_first.jpg);
+    background-image: url(../images/background_first.jpg);
 }
 
 .socials-sec-one {

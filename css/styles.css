@@ -232,6 +232,8 @@ img {
 
 .button:hover {
     background-color: var(--orange);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    text-shadow: whitesmoke 2px 2px 10px;
 }
 
 
@@ -311,8 +313,13 @@ img {
     text-transform: uppercase;
     background-color: transparent;
     transition: background-color 250ms;
-    position: relative;
-    overflow: hidden;
+}
+
+.sec-btn:hover {
+    background-color: var(--orange);
+    color: var(--white);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    text-shadow: whitesmoke 2px 2px 10px;
 }
 
 .animation-p {
@@ -330,7 +337,6 @@ img {
     letter-spacing: 0.32px;
     position: absolute;
     transform: translateY(100%);
-    transition: 250ms;
     padding: 40px 32px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -354,6 +360,23 @@ img {
     transform: translateY(0%);
 }
 
+.imgs {
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 250ms;
+}
+
+.imgs:hover {
+    transform: scale(1.1) rotate(-1deg);
+}
+
+.li-imgs {
+    border-radius: 5px;
+}
+
+.li-imgs:hover {
+    box-shadow: 5px 5px 20px black;
+}
 
 .p-about {
     color: var(--grayglobal);
@@ -533,6 +556,7 @@ img {
     text-align: center;
     background: #F7F7F7;
     box-shadow: 4px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fourth-li:nth-child(1) {
@@ -541,6 +565,11 @@ img {
 
 .fourth-li:nth-child(3) {
     margin-top: -40px;
+}
+
+.fourth-li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .plus {
@@ -692,6 +721,12 @@ img {
     justify-content: center;
     cursor: pointer;
     align-items: center;
+}
+
+.social-li:hover {
+    box-shadow: -7px 7px 22px -13px rgba(130, 124, 120, 0.21);
+    -webkit-box-shadow: -7px 7px 22px -13px rgba(130, 124, 120, 0.21);
+    -moz-box-shadow: -7px 7px 22px -13px rgba(130, 124, 120, 0.21); 
 }
 
 .social-svg {
@@ -861,7 +896,6 @@ img {
 }
 
 .btn-order {
-    padding: 12px 38px;
     border-radius: 25px;
     border: 1px solid var(--orange);
     background-color: transparent;
@@ -874,7 +908,20 @@ img {
     line-height: normal;
     letter-spacing: 1.08px;
     text-transform: uppercase;
+    width: 160px;
+    height: 40px;
+    padding: 10px 38px;
+    transition: background-color 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.btn-order:hover {
+    background-color: var(--orange);
+    box-shadow: -2px 0px 38px 2px rgba(255, 94, 0, 0.82);
+    -webkit-box-shadow: -2px 0px 38px 2px rgba(255, 94, 0, 0.82);
+    -moz-box-shadow: -2px 0px 38px 2px rgba(255, 94, 0, 0.82);
+    text-shadow: whitesmoke 2px 2px 10px;
+}
+
 
 .contacts-div {
     background-image: linear-gradient(rgba(13, 16, 26, 0.7), rgba(0, 0, 0, 0.7)), url('/images/background_seventh.jpg');

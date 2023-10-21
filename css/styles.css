@@ -924,7 +924,7 @@ img {
 
 
 .contacts-div {
-    background-image: linear-gradient(rgba(13, 16, 26, 0.7), rgba(0, 0, 0, 0.7)), url('/images/background_seventh.jpg');
+    background-image: linear-gradient(rgba(13, 16, 26, 0.7), rgba(0, 0, 0, 0.7)), url('../images/background_seventh.jpg');
     background-repeat: no-repeat;
     width: 785px;
     height: 630px;

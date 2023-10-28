@@ -84,7 +84,7 @@
             </ul>
             </div>
             <div class="about"><div class="hr-and-p">
-            <p class="p-about">ABOUT</p></div>
+            <p class="p-about"><hr class="hr-about">ABOUT</p></div>
             <h2 class="heading-two">Best Barbershop in your city</h2>
             <p class="p-sec-section">If you want to add more confidence to your image, you should visit us.</p>
             <p class="sec-p-sec-section">We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall
@@ -95,22 +95,30 @@
             </div>
         </section>
         <section class="third-section">
-            <div class="third-container container">
-            <p class="first-p-third-section">Spend your time with the best masters</p>
+            <div class="third-container container"><div class="hr-and-p"><hr class="hr-fpth">
+            <p class="first-p-third-section">Spend your time with the best masters</p></div>
             <h2 class="heading-three">Services and prices</h2>
-            <div class="lists">
-            <ul class="list price-list">
-                <li class="list price-li"><span class="span-price start-price">Men’s haircut</span><span class="span-price end-price">from 300 uah.</span></li>
-                <li class="list price-li"><span class="span-price start-price">Beard trim</span><span class="span-price end-price">from 300 uah.</span></li>
-                <li class="list price-li"><span class="span-price start-price">Mustache trim</span><span class="span-price end-price">from 200 uah.</span></li>
-                <li class="list price-li"><span class="span-price start-price">Straight razor shave</span><span class="span-price end-price">from 200 uah.</span></li>
-            </ul>
-            <ul class="list price-list">
-                <li class="list price-li"><span class="span-price start-price">Trainee’s haircut</span><span class="span-price end-price">from 50 uah.</span></li>
-                <li class="list price-li"><span class="span-price start-price">Haircut under the nozzle</span><span class="span-price end-price">from 200 uah.</span></li>
-                <li class="list price-li"><span class="span-price start-price">Haircut under the nozzle</span><span class="span-price end-price">from 300 uah.</span></li>
-                <li class="list price-li"><span class="span-price start-price">Camouflage of gray hair</span><span class="span-price end-price">from 200 uah.</span></li>
-            </ul>
+            <div class="pricing-wrapper">
+                <ul class="price-list">
+                    <li><span class="price-name">Men’s haircut</span>
+                        from 300 uah.</li>
+                    <li><span class="price-name">Beard trim</span>
+                        from 300 uah.</li>
+                    <li><span class="price-name">Mustache trim</span>
+                        from 200 uah.</li>
+                    <li><span class="price-name">Straight razor shave</span>
+                        from 200 uah.</li>
+                </ul>
+                <ul class="price-list">
+                    <li><span class="price-name">Trainee’s haircut</span>
+                        from 50 uah.</li>
+                    <li><span class="price-name">Haircut under the nozzle</span>
+                        from 200 uah.</li>
+                    <li><span class="price-name">Children’s haircut (0-12 y.o.)</span>
+                        from 300 uah.</li>
+                    <li><span class="price-name">Camouflage of gray hair</span>
+                        from 200 uah.</li>
+                </ul>
             </div><div class="div-button">
             <button type="button" class="button btn-three">ONLINE-BOOKING</button></div>
             </div>
@@ -137,15 +145,16 @@
                 </li>
             </ul>
             </div>
-            <div class="fourth-div">
-            <p class="oldtraditional">Old traditional school</p>
+            <div class="fourth-div"><div class="hr-and-p"><hr class="hr-about">
+            <p class="oldtraditional"> traditional school</p></div>
             <h3 class="heading-fourth">Why people come to us?</h3>
             <p class="p-fourth-div">Only good things are said about us. But it's better to see and feel 1 time than read 10 times. </p>
             </div></div>
         </section>
         <section class="fifth-section">
             <div class="fifth-container container">
-            <p class="fifth-sec-p">For true enjoyers of the atmosphere</p>
+            <div class="hr-and-p"><hr class="hr-about">
+            <p class="fifth-sec-p">For true enjoyers of the atmosphere</p></div>
             <h2 class="heading-five">Our barbers</h2>
             <ul class="barbers">
                 <li><img src="./images/JohnSmith.jpg" alt="" width="370" height="346">
@@ -230,8 +239,8 @@
             </div>
         </section>
         <section class="sixth-section section">
-            <div class="sixth-container container">
-            <p class="sixth-sec-p">In Latin, "barba" means "beard"</p>
+            <div class="sixth-container container"><div class="hr-and-p"><hr class="hr-about">
+            <p class="sixth-sec-p">In Latin, "barba" means "beard"</p></div>
             <h2 class="visually-hidden">ok</h2>
             <ul class="imgs-ul">
                 <li class="imgs-li"><img src="./images/imgone.jpg" alt="" width="270" height="360"></li>
@@ -246,22 +255,25 @@
             <div class="online-booking-div">
                 <h2 class="heading-seven">Online-booking</h2>
                 <div class="form-div">
-                    <form method="POST" action="javascript:void(0);" autocomplete="off">
-                        <div class="inline-form"><label class="label">
-                            <span class="label-span">Name*</span>
-                            <input type="text" name="login" placeholder=" " class="input"/>
-                        </label>
-                        <label class="label">
-                            <span class="label-span">Phone*</span>
-                            <input type="text" name="password" placeholder=" " class="input"/>
-                        </label></div><div class="mess-btn">
-                        <label>
-                            Message
-                            <textarea name="user-comment" class="textarea" rows="2"></textarea>
-                        </label>
-                        <button type="submit" class="btn-order">Send</button></div>
-                    </form>
-                    
+                    <div class="form-div">
+                        <form>
+                        <div>
+                            <div class="input-div">
+                                <label for="name">name</label>
+                                <input required id="name" name="name" type="text"/>
+                            </div>
+                            <div class="input-div">
+                                <label for="phone">phone</label>
+                                <input required id="phone" name="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" />
+                            </div>
+                            <div class="input-div">
+                                <label for="message">message</label>
+                                <textarea id="message" name="message"></textarea>
+                            </div>
+                            <button type="submit">send</button>
+                        </div>
+                        </div>
+                        </form>
                     
                     
                 </div>
@@ -295,8 +307,8 @@
                             </a>
                         </li>
                     </ul>
-                </address>
-                <p class="working-hours">Working hours</p>
+                </address><div class="hr-and-p"><hr class="hr-contacts">
+                <p class="working-hours">Working hours</p></div>
                 <p class="working-h">Every day from 9:00 to 22:00</p>
             </div>
             </div>
